@@ -1,6 +1,7 @@
 <h1 align="center"> weather </h1>
 
-[![Build Status](https://travis-ci.com/adlingson/weather.svg?branch=master)](https://travis-ci.com/adlingson/weather)
+[![Build Status](https://travis-ci.com/adlingson/weather.svg?branch=master)](https://travis-ci.com/adlingson/weather) 
+![StyleCI build status](https://github.styleci.io/repos/359739807/shield)
 
 <p align="center"> a weather sdk.</p>
 
