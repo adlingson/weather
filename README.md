@@ -1,5 +1,7 @@
 <h1 align="center"> weather </h1>
 
+[![Build Status](https://travis-ci.com/adlingson/weather.svg?branch=master)](https://travis-ci.com/adlingson/weather)
+
 <p align="center"> a weather sdk.</p>
 
 
