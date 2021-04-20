@@ -1,5 +1,13 @@
 <?php
 
+/*
+ * This file is part of the adlingson/weather.
+ *
+ * (c) adlingson<i@adlingson.me>
+ *
+ * This source file is subject to the MIT license that is bundled
+ * with this source code in the file LICENSE.
+ */
 
 namespace Adlingson\Weather;
 
@@ -27,7 +35,7 @@ class Weather
         $this->guzzleOptions = $options;
     }
 
-    public function getWeather($city,$type = 'base',$format = 'json')
+    public function getWeather($city, $type = 'base', $format = 'json')
     {
         $url = 'https://restapi.amap.com/v3/weather/weatherInfo';
 
@@ -43,7 +51,7 @@ class Weather
             'key' => $this->key,
             'city' => $city,
             'output' => \strtolower($format),
-            'extensions' =>  \strtolower($type),
+            'extensions' => \strtolower($type),
         ]);
 
         try {
