@@ -1,0 +1,1 @@
+C:37:"PHPUnit\Runner\DefaultTestResultCache":298:{a:2:{s:7:"defects";a:0:{}s:5:"times";a:3:{s:66:"Adlingson\Weather\Tests\WeatherTest::testGetWeatherWithInvalidType";d:0.01;s:68:"Adlingson\Weather\Tests\WeatherTest::testGetWeatherWithInvalidFormat";d:0;s:77:"Adlingson\Weather\Tests\WeatherTest::testGetWeatherWithGuzzleRuntimeException";d:0.034;}}}
